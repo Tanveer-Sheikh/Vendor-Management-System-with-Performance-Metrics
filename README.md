@@ -262,11 +262,12 @@ This project provides an API for managing vendors and purchase orders. It allows
   }
   ```
 #### Specific Vendor Detail
+
 - **URL**: `vendors/<int:vendor_id>/performance/`
 - **Method**: `GET`
 - **Response**:
   ```json
-{
+  {
     "data": {
         "id": 28,
         "name": "Tanveer Sheikh",
@@ -278,7 +279,7 @@ This project provides an API for managing vendors and purchase orders. It allows
         "average_response_time": 0.0,
         "fulfillment_rate": 1.0
     }
-}
+  }
   ```
 
 
@@ -291,4 +292,3 @@ The performance metrics for vendors are tracked and updated based on the purchas
 - **Average Response Time**: Average time taken by the vendor to acknowledge the purchase orders.
 - **Fulfillment Rate**: Percentage of orders fulfilled by the vendor.
 
-Feel free to customize this README as needed to better fit your project and preferences. This structured format should provide clear and comprehensive documentation for users of your API.
